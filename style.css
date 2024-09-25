@@ -1,0 +1,30 @@
+﻿html {
+    scroll-behavior: smooth;
+}
+
+/* Custom background for sections */
+#home {
+    background: url('https://upload.wikimedia.org/wikipedia/commons/8/88/Chess_Board.jpg') no-repeat center center/cover;
+}
+
+#about {
+    background-color: #f8f9fa;
+}
+
+#strategies {
+    background-color: #343a40;
+}
+
+#openings {
+    background-color: #f8f9fa;
+}
+
+#contact {
+    background-color: #212529;
+}
+
+/* Navbar Links active state */
+.navbar-nav .nav-link.active {
+    font-weight: bold;
+    color: #ffc107 !important;
+}
